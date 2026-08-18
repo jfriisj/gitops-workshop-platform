@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:gitops-lab-does-not-exist
+          image: nginx:1.29.7-alpine
           ports:
             - containerPort: 80
 ---
